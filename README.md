@@ -1,2 +1,2 @@
 # upwards-android-app
-Android assignment
+Android assignment for Upwards Fintech
