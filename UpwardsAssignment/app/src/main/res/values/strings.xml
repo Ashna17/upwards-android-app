@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">UpwardsAssignment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name = "animals_a">
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+        <item>a4</item>
+        <item>a5</item>
+        <item>a6</item>
+        <item>a7</item>
+        <item>a8</item>
+        <item>a9</item>
+        <item>a10</item>
+        <item>a11</item>
+        <item>a12</item>
+        <item>a13</item>
+        <item>a14</item>
+        <item>a15</item>
+        <item>a16</item>
+        <item>a17</item>
+        <item>a18</item>
+        <item>a19</item>
+        <item>a20</item>
+    </string-array>string-array>
+    <string-array name = "animals_ba">
+        <item>ba1</item>
+        <item>ba2</item>
+        <item>ba3</item>
+        <item>ba4</item>
+        <item>ba5</item>
+        <item>ba6</item>
+        <item>ba7</item>
+        <item>ba8</item>
+        <item>ba9</item>
+        <item>ba10</item>
+        <item>ba11</item>
+        <item>ba12</item>
+        <item>ba13</item>
+        <item>ba14</item>
+        <item>ba15</item>
+        <item>ba16</item>
+        <item>ba17</item>
+        <item>ba18</item>
+        <item>ba19</item>
+        <item>ba20</item>
+    </string-array>string-array>
+</resources>
