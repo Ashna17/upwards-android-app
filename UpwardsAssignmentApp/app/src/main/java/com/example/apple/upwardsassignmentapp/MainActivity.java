@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private RecyclerListAdapter adapter;
-    private static final String URL_DATA = "https://www.datakick.org/api/items?size=5&page=";
+    private static final String URL_DATA = "https://www.datakick.org/api/items?page=";
     private static int page_number = 1;
 
     @Override
