@@ -42,3 +42,5 @@
 3. MainActivty.java: This Activity will be the screen that will display the RecyclerView and all of its containing data to the users. The loadData class in MainActivity communicates with the API and fetches the response.
 
 ## Screenshots
+
+<img src="https://github.com/Ashna17/upwards-android-app/blob/master/RecyclerList.png" width="256" title="">
