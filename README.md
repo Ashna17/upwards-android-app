@@ -1,8 +1,8 @@
 # upwards-android-app
 ## Android assignment for Upwards Fintech.
    The main features of this application demonstrate:
-1. RecyclerView Lists
-2. API Integration wiht pagination
+1. RecyclerView Lists.
+2. API Integration wiht pagination.
 3. Basic coding practices in Android including UI,Layouts and Widget(Button) functionality.
 
 ## Introduction
@@ -23,8 +23,8 @@
 
 
 ## Getting Started
-1. Clone repository from <https://github.com/Ashna17/upwards-android-app.git>
-2. Import Project from Android Studio menu **File>New>Import Project**
+1. Clone repository from <https://github.com/Ashna17/upwards-android-app.git>.
+2. Import Project from Android Studio menu **File>New>Import Project**.
 3. Set sdk directory in local.properties in Gradle Scripts.
 4. AndroidManifest.xml must include
 
@@ -33,7 +33,7 @@
 
       ```   implementation 'com.android.support:recyclerview-v7:27.1.1'```   
       ```implementation 'com.android.volley:volley:1.1.0'```  
-6. Sync Now and Build
+6. Sync Now and Build.
 
 
 ## Java Classes
