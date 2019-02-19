@@ -24,16 +24,21 @@
 
 ## Getting Started
 1. Clone repository from <https://github.com/Ashna17/upwards-android-app.git>
-2. Import Project
+2. Import Project from Android Studio menu **File>New>Import Project**
 3. Set sdk directory in local.properties in Gradle Scripts.
-3. Modify Manifest
-4. build.gradle implementations (recyclerview, volley)
-5. Sync and build
+4. AndroidManifest.xml must include
+
+      ```  <uses-permission android:name="android.permission.INTERNET"/>```     
+5. Following dependecies in build.gradle must be implemented
+
+      ```   implementation 'com.android.support:recyclerview-v7:27.1.1'```   
+      ```implementation 'com.android.volley:volley:1.1.0'```  
+6. Sync Now and Build
 
 
 ## Java Classes
-1. Item.java
-2. RecyclerListAdapter
-3. Main Activty 
+1. Item.java: Objects of this model class hold the data items that will be displayed in the recycler view. It has a constructor and getters to set and obtain attribute values of items. Items that contain the attributes "brand_name","name" and "size" are only considered.
+2. RecyclerListAdapter.java:  The adapter is the piece that will connect the data to the RecyclerView and determine the ViewHolder(s) which will need to be used to display that data. The view holder class ItemViewHolder is the object that represents each item in the collection and will be used to display it.
+3. MainActivty.java: This Activity will be the screen that will display the RecyclerView and all of its containing data to the users. The loadData class in MainActivity communicates with the API and fetches the response.
 
 ## Screenshots
